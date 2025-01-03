@@ -15,3 +15,7 @@ body {
 .nav-btn {
   @apply border-2 border-orange-600 hover:bg-orange-600 font-semibold xl:px-4 xl:py-1 sm:px-2 sm:py-0.5 duration-300;
 }
+
+.image {
+  @apply relative overflow-hidden before:absolute before:content-[''] before:min-w-[110%] before:h-24 before:bg-black before:-left-5 before:top-36 before:transform before:translate-y-10 before:-rotate-3 before:border-t-4 before:border-orange-600;
+}

@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className='w-full fixed top-0 left-0 right-0 z-50 backdrop-blur-none'>
         <div className='container text-white font-medium text-lg flex justify-between items-center px-8 h-20'>
             <div>
-                <img src={logo} alt="logo" className='w-15 h-14 md:w-13 md:h-11' />
+                <img src={logo} alt="logo" className='w-15 h-8 md:w-13 md:h-11 lg:h-16' />
             </div>
 
             <div className='hidden lg:block'>
