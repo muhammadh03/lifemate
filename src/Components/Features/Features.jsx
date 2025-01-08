@@ -9,7 +9,7 @@ const Features = ({icon, title, description}) => {
       <h1 className='font-bold text-2xl mb-2'> 
         {title} 
       </h1>
-      <p className='font-light text-slate-400'>
+      <p className='font-normal text-[#ff0000]'>
       {description}
       </p>
     </div>

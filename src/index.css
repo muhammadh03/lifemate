@@ -9,13 +9,17 @@ body {
 }
 
 .nav-link {
-  @apply hover:text-orange-500 duration-300;
+  @apply hover:text-[#ff0000] duration-300;
 }
 
 .nav-btn {
-  @apply border-2 border-orange-600 hover:bg-orange-600 font-semibold xl:px-4 xl:py-1 sm:px-2 sm:py-0.5 duration-300;
+  @apply border-2 border-[#ff0000] hover:bg-[#ff0000] font-semibold xl:px-4 xl:py-1 sm:px-2 sm:py-0.5 duration-300;
 }
 
-.image {
-  @apply relative overflow-hidden before:absolute before:content-[''] before:min-w-[110%] before:h-24 before:bg-black before:-left-5 before:top-36 before:transform before:translate-y-10 before:-rotate-3 before:border-t-4 before:border-orange-600;
+.classes-image {
+  @apply relative overflow-hidden before:absolute before:content-[''] before:min-w-[110%] before:h-24 before:bg-black before:-left-5 before:top-36 before:transform before:translate-y-10 before:-rotate-3 before:border-t-4 before:border-[#ff0000];
+}
+
+.coaches-border {
+  @apply relative after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:w-16 after:h-1 after:bg-[#ff0000] after:transform after:-translate-x-1/2 after:transition-all after:hover:w-full ease-in-out after:duration-500;
 }

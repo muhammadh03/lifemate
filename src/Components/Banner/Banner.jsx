@@ -1,19 +1,26 @@
-import banner from '../../assets/wallpaperflare.com_wallpaper.jpg'
+import banner from '../../assets/wallpaper-2.jpg'
 
 const Home = () => {
   return (
     <div className='relative'>
       <img src={banner} alt="banner_image" />
       
-      <div className='absolute top-36 md:top-56 lg:top-80 left-5  text-transparent bg-clip-text bg-gradient-to-r from-orange-600 via-orange-400 to-slate-300'>
-        <h1 className='italic text-3xl md:text-5xl lg:text-7xl font-extrabold'>GET FIT 
+      <div className='absolute top-36 md:top-56 lg:top-80 left-5 text-red-600'>
+      {/* text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-slate-300 */}
+        <h1 className='italic text-3xl md:text-5xl lg:text-7xl font-extrabold'>
+          <span className='text-white'>GET</span> FIT 
           <br />
-          &nbsp;&nbsp;BE STRONG
+          &nbsp;&nbsp;<span className='text-white'>BE</span> STRONG
         </h1>
         
-        <p className='text-transparent bg-clip-text bg-gradient-to-l from-orange-600 via-orange-400 to-slate-300 text-xl md:text-3xl lg:text-5xl'>Achieve Your Dreams</p>
+        <p className='text-white text-xl md:text-3xl lg:text-5xl'>
+        {/* text-transparent bg-clip-text bg-gradient-to-l from-red-600 to-slate-300 */}
+        <span className='text-red-600'>Achieve</span> Your Dreams
+        </p>
 
-        <button className="bg-orange-600 hover:bg-transparent border-2 border-orange-600 duration-300 text-white font-bold text-xs md:text-base lg:ml-40 lg:mt-8 py-1 px-2 lg:py-2 lg:px-4 mt-2">OUR CLASSES</button>
+        <button className="transparent border-2 border-[#ff0000] hover:bg-[#ff0000] duration-300 text-white font-bold text-xs md:text-base lg:ml-40 lg:mt-8 py-1 px-2 lg:py-2 lg:px-4 mt-2">
+          OUR CLASSES
+        </button>
       </div>
 
       {/* <div className="absolute top-90 left-10">
