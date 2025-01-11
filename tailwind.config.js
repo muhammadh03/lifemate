@@ -34,6 +34,7 @@ export default {
       'background-image-2' : "url('./src/assets/backgrounds/dark-texture-surface.jpg')",
       'background-image-3' : "url('./src/assets/backgrounds/white-simple-textured-design-background.jpg')",
       'background-image-4' : "url('./src/assets/backgrounds/blue-background.jpg')",
+      'background-image-5' : "url('./src/assets/backgrounds/brushed-white-paint-background.jpg)",
     }
   },
   plugins: [],

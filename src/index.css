@@ -17,9 +17,19 @@ body {
 }
 
 .classes-image {
-  @apply relative overflow-hidden before:absolute before:content-[''] before:min-w-[110%] before:h-24 before:bg-black before:-left-5 before:top-36 before:transform before:translate-y-10 before:-rotate-3 before:border-t-4 before:border-[#ff0000];
+  @apply relative overflow-hidden before:absolute before:content-[''] before:min-w-[110%] before:h-24 before:bg-black before:-left-5 before:top-40 before:md:top-52 before:lg:top-28 before:xl:top-40 before:transform before:translate-y-10 before:-rotate-3 before:border-t-4 before:border-[#ff0000];
 }
 
 .coaches-border {
-  @apply relative after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:w-16 after:h-1 after:bg-[#ff0000] after:transform after:-translate-x-1/2 after:transition-all after:hover:w-full ease-in-out after:duration-500;
+  @apply relative after:absolute after:content-[''] after:bottom-0 after:left-1/2 after:w-16 after:h-1 after:bg-[#ff0000] after:transform after:-translate-x-1/2 after:transition-all after:hover:w-full ease-in-out after:duration-500;
+}
+
+.price-span {
+  @apply before:absolute before:content-[''] before:bg-[#ff0000] before:w-4 before:h-10 before:bottom-0 before:-left-2 before:-skew-x-[20deg]
+  transform translate-x-[200%] group-hover:translate-x-10 transition-transform duration-300 ease-out;
+}
+
+.price-title {
+  @apply after:absolute after:content-['']  after:bg-black after:w-8 after:h-10 after:bottom-0 after:-right-6 after:skew-x-[20deg]
+  group-hover:bg-slate-900 group-hover:after:bg-[#ff0000];
 }
