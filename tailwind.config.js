@@ -31,10 +31,17 @@ export default {
     },
     backgroundImage: {
       'background-image-1' : "url('/src/assets/backgrounds/background-image.jpg')",
-      'background-image-2' : "url('./src/assets/backgrounds/dark-texture-surface.jpg')",
-      'background-image-3' : "url('./src/assets/backgrounds/white-simple-textured-design-background.jpg')",
-      'background-image-4' : "url('./src/assets/backgrounds/blue-background.jpg')",
-      'background-image-5' : "url('./src/assets/backgrounds/brushed-white-paint-background.jpg)",
+<<<<<<< HEAD
+      'background-image-2' : "url('/src/assets/backgrounds/dark-texture-surface.jpg')",
+      'background-image-3' : "url('/src/assets/backgrounds/white-simple-textured-design-background.jpg')",
+      'background-image-4' : "url('/src/assets/backgrounds/blue-background.jpg')",
+      'background-image-5' : "url('/src/assets/backgrounds/brushed-white-paint-background.jpg)",
+=======
+      'background-image-2' : "url('/src/assets/backgrounds/dark-texture-surface.jpg')",
+      'background-image-3' : "url('/src/assets/backgrounds/white-simple-textured-design-background.jpg')",
+      'background-image-4' : "url('/src/assets/backgrounds/blue-background.jpg')",
+      'background-image-5' : "url('/src/assets/backgrounds/brushed-white-paint-background.jpg)",
+>>>>>>> 3b3fe5b8531a49b38ab1d06527e402a4c76419fe
     }
   },
   plugins: [],
