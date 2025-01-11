@@ -55,8 +55,8 @@ const BMICalculator = () => {
             </p>
 
             {/* BMI calculator form */}
-            <form action="" className="relative flex flex-col sm:flex-row py-4">
-                <div className="ml-4 mb-3 sm:m-0">
+            <form action="" className="relative flex flex-col sm:flex-row pt-4 sm:py-4">
+                <div className="ml-4 mb-2 sm:m-0">
                     {/* <label htmlFor="weight">Weight :</label> */}
                     <input
                         type="number"
@@ -91,7 +91,7 @@ const BMICalculator = () => {
                     </p>
                 </div>
             </form>
-            <button className="absolute top-[11.7rem] right-8 py-1 px-2 sm:static sm:top-auto sm:right-auto sm:py-2 sm:px-6 bg-slate-600 hover:bg-red-600 duration-300" onClick={calculateBMI}>
+            <button className="ml-4 py-1 px-3 sm:py-2 sm:px-6 bg-slate-600 hover:bg-red-600 duration-300" onClick={calculateBMI}>
                 CALCULATE
             </button>
 
