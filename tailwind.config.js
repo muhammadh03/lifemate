@@ -30,11 +30,11 @@ export default {
       josefin: ["Josefin Sans", "sans-serif"],
     },
     backgroundImage: {
-      'background-image-1' : "url('/backgrounds/background-image.jpg')",
-      'background-image-2' : "url('/backgrounds/dark-texture-surface.jpg')",
-      'background-image-3' : "url('/backgrounds/white-simple-textured-design-background.jpg')",
-      'background-image-4' : "url('./src/assets/backgrounds/blue-background.jpg')",
-      'background-image-5' : "url('/backgrounds/brushed-white-paint-background.jpg)",
+      'background-image-1' : "url('/src/assets/backgrounds/background-image.jpg')",
+      'background-image-2' : "url('/src/assets/backgrounds/dark-texture-surface.jpg')",
+      'background-image-3' : "url('/src/assets/backgrounds/white-simple-textured-design-background.jpg')",
+      'background-image-4' : "url('/src/assets/backgrounds/blue-background.jpg')",
+      'background-image-5' : "url('/src/assets/backgrounds/brushed-white-paint-background.jpg)",
     }
   },
   plugins: [],
