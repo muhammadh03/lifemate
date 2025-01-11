@@ -48,15 +48,15 @@ const BMICalculator = () => {
     }
 
     return (
-        <div className="pl-10">
-            <h1 className="mb-2 font-bold text-3xl">Lets Calculate Your <span className="text-red-600">BMI</span></h1>
-            <p className="mb-2 text-white lg:text-slate-400">
+        <div className="px-4 sm:pl-10">
+            <h1 className="mb-2 font-bold text-xl sm:text-3xl">Lets Calculate Your <span className="text-red-600">BMI</span></h1>
+            <p className="mb-2 text-white lg:text-slate-400 text-base">
                 Easily determine your body mass index with our accurate calculation tool.
             </p>
 
             {/* BMI calculator form */}
-            <form action="" className="flex py-4">
-                <div>
+            <form action="" className="relative flex flex-col sm:flex-row py-4">
+                <div className="ml-4 mb-3 sm:m-0">
                     {/* <label htmlFor="weight">Weight :</label> */}
                     <input
                         type="number"
@@ -69,7 +69,7 @@ const BMICalculator = () => {
                         className="py-1 px-3 border-2 border-[#ff0000] bg-transparent text-base"
                     />
                     {/* <small>Please enter your weight in kilograms.</small> */}
-                    <p className="mt-4">
+                    <p className="mt-1 sm:mt-4">
                         Your BMI is : <span className="text-[#ff0000] text-center text-sm"> {bmi} </span>
                     </p>
                 </div>
@@ -86,12 +86,12 @@ const BMICalculator = () => {
                         className="py-1 px-3 border-2 border-[#ff0000] bg-transparent"
                     />
                     {/* <small>Please enter your height in centimeters.</small> */}
-                    <p className="mt-4">
+                    <p className="mt-1 sm:mt-4">
                         Your weight is : <span className="text-[#ff0000] text-center text-sm"> {category} </span>
                     </p>
                 </div>
             </form>
-            <button className="py-2 px-6 bg-slate-600 hover:bg-red-600 duration-300" onClick={calculateBMI}>
+            <button className="absolute top-[11.7rem] right-8 py-1 px-2 sm:static sm:top-auto sm:right-auto sm:py-2 sm:px-6 bg-slate-600 hover:bg-red-600 duration-300" onClick={calculateBMI}>
                 CALCULATE
             </button>
 
