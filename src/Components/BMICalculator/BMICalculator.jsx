@@ -91,7 +91,7 @@ const BMICalculator = () => {
                     </p>
                 </div>
             </form>
-            <button className="ml-4 py-1 px-3 sm:py-2 sm:px-6 bg-slate-600 hover:bg-red-600 duration-300" onClick={calculateBMI}>
+            <button className="ml-4 py-1 px-3 sm:m-0 sm:py-2 sm:px-6 bg-slate-600 hover:bg-red-600 duration-300" onClick={calculateBMI}>
                 CALCULATE
             </button>
 
