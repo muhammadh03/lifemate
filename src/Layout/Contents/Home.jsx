@@ -30,12 +30,20 @@ import GalleryImageFive from '../../assets/classes/weight-loss-2.jpg';
 //~~~~~~~~~~~~~~~ BMI CALCULATOR IMAGE ~~~~~~~~~~~~~~~//
 import BmiImage from '../../assets/classes/workout-with-kattlebell.jpg'
 
+//~~~~~~~~~~~~~~~ TESTIMONIAL ~~~~~~~~~~~~~~~//
+import TestimonialImageOne from '../../assets/testimonial/crop-1.jpg';
+import TestimonialImageTwo from '../../assets/testimonial/crop-2.jpg';
+import TestimonialImageThree from '../../assets/testimonial/crop-3.jpg';
+import TestimonialImageFour from '../../assets/testimonial/crop-4.jpg';
+
+//~~~~~~~~~~~~~~~ HOME ~~~~~~~~~~~~~~~//
 import Banner from "../../Components/Banner/Banner";
 import Features from "../../Components/Features/Features";
 import Classes from '../../Components/Classes/Classes';
 import Coaches from '../../Components/Coaches/Coaches';
 import Pricing from '../../Components/Pricing/Pricing';
 import BMICalculator from '../../Components/BMICalculator/BMICalculator';
+import Testimonial from '../../Components/Testimonial/Testimonial';
 // import Gallery from '../../Components/Gallery/Gallery'
 
 const CardDetails = [
@@ -218,21 +226,6 @@ const Contents = () => {
               {/* This is 05 */}
               <img src={GalleryImageFive} alt="" className='w-full h-full object-cove' />
             </div>
-            {/* <div className="p-10 bg-slate-900 ">This is 06</div>
-            <div className="p-10 bg-blue-500 ">This is 07</div>
-            <div className="p-10 bg-blue-800 ">This is 08</div>
-            <div className="p-10 bg-blue-950">This is 09</div>
-            <div className="p-10 bg-green-500 ">This is 10</div>
-            <div className="p-10 bg-green-700 ">This is 11</div>
-            <div className="p-10 bg-green-900 ">This is 12</div>
-            <div className="p-10 bg-yellow-500 ">This is 13</div>
-            <div className="p-10 bg-yellow-700 ">This is 14</div>
-            <div className="p-10 bg-yellow-900 ">This is 15</div>
-            <div className="p-10 bg-pink-500 ">This is 16</div>
-            <div className="p-10 bg-pink-700 ">This is 17</div>
-            <div className="p-10 bg-pink-900 ">This is 18</div>
-            <div className="p-10 bg-gray-500 ">This is 19</div>
-            <div className="p-10 bg-gray-700 ">This is 20</div> */}
           </div>
         </div>
       </div>
@@ -248,7 +241,39 @@ const Contents = () => {
         <div className='md:px-8 pt-10 absolute lg:relative lg:left-0'>
           <BMICalculator />
         </div>
-        <img src={BmiImage} alt="image" className='h-80 w-full md:h-full lg:h-96 lg:w-fit' />
+        <img src={BmiImage} alt="image" className='h-96 w-full md:h-full lg:h-96 lg:w-fit' />
+      </div>
+
+      {/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Testimonial ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/}
+      <div className='bg-background-image-1 w-full'>
+        <div className="flex flex-col justify-center items-center">
+          <h1 className="tracking-wider text-[#ff0000] pt-12 text-center">TESTIMONIAL</h1>
+          <p className="text-3xl text-center font-bold tracking-wider mt-2">
+            HAPPY PEOPLE SAY
+          </p>
+        </div>
+        <div className='px-8 py-8 mt-4 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4'>
+          <Testimonial 
+          image = {TestimonialImageOne}
+          name = 'John Doe'
+          testimonial = 'LifeMate has been a great resource for me in my journey to lose weight and achieve my fitness goals. I have made some amazing friends along the way and I wouldnt trade this experience for anything.'
+          />
+          <Testimonial 
+          image = {TestimonialImageTwo}
+          name = 'Alex Smith'
+          testimonial = 'LifeMate has been a great resource for me in my journey to lose weight and achieve my fitness goals. I have made some amazing friends along the way and I wouldnt trade this experience for anything.'
+          />
+          <Testimonial 
+          image = {TestimonialImageThree}
+          name = 'Shane Jones'
+          testimonial = 'LifeMate has been a great resource for me in my journey to lose weight and achieve my fitness goals. I have made some amazing friends along the way and I wouldnt trade this experience for anything.'
+          />
+          <Testimonial 
+          image = {TestimonialImageFour}
+          name = 'Sara Lilian'
+          testimonial = 'LifeMate has been a great resource for me in my journey to lose weight and achieve my fitness goals. I have made some amazing friends along the way and I wouldnt trade this experience for anything.'
+          />
+        </div>
       </div>
     </div>
   )

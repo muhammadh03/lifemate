@@ -91,17 +91,17 @@ const BMICalculator = () => {
                     </p>
                 </div>
             </form>
-            <button className="ml-4 py-1 px-3 sm:m-0 sm:py-2 sm:px-6 border-2 border-red-600 bg-slate-600 hover:bg-red-600 duration-300" onClick={calculateBMI}>
+            <button className="ml-4 mt-4 py-1 px-3 sm:m-0 sm:py-2 sm:px-6 border-2 border-red-600 bg-slate-600 hover:bg-red-600 duration-300" onClick={calculateBMI}>
                 CALCULATE
             </button>
 
             {/* Popup div for invalid */}
             {popup && (
                 <div className="fixed top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-50">
-                    <div className="bg-white p-6 rounded shadow-lg text-center">
+                    <div className="bg-white p-6  shadow-lg text-center">
                         <p className="text-red-600 font-bold">Please enter valid inputs!</p>
                         <button
-                            className="mt-4 py-2 px-6 bg-slate-600 hover:bg-red-600 text-white rounded"
+                            className="mt-4 py-2 px-6 bg-slate-600 hover:bg-red-600 text-white "
                             onClick={() => setPopup(false)} // Close popup
                         >
                             Close

@@ -5,7 +5,7 @@ const Home = () => {
     <div className='relative'>
       <img src={banner} alt="banner_image" />
       
-      <div className='absolute top-36 md:top-56 lg:top-80 left-5 text-red-600'>
+      <div className='absolute top-24 sm:top-36 md:top-56 lg:top-80 left-5 text-red-600'>
       {/* text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-slate-300 */}
         <h1 className='italic text-3xl md:text-5xl lg:text-7xl font-extrabold'>
           <span className='text-white'>GET</span> FIT 
