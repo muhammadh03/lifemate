@@ -44,6 +44,7 @@ import Coaches from '../../Components/Coaches/Coaches';
 import Pricing from '../../Components/Pricing/Pricing';
 import BMICalculator from '../../Components/BMICalculator/BMICalculator';
 import Testimonial from '../../Components/Testimonial/Testimonial';
+import Footer from '../Footer';
 // import Gallery from '../../Components/Gallery/Gallery'
 
 const CardDetails = [
@@ -163,7 +164,7 @@ const Contents = () => {
       </div>
 
       {/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PRICING ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/}
-      <div className='bg-background-image-4 text-white'>
+      <div className='bg-background-image-4 w-fit text-white'>
         <div className="flex flex-col justify-center items-center">
           <h1 className="tracking-wider text-[#ff0000] pt-12 text-center">OUR PRICES</h1>
           <p className="text-3xl text-center font-bold tracking-wider mt-2">
@@ -261,19 +262,24 @@ const Contents = () => {
           <Testimonial 
           image = {TestimonialImageTwo}
           name = 'Alex Smith'
-          testimonial = 'LifeMate has been a great resource for me in my journey to lose weight and achieve my fitness goals. I have made some amazing friends along the way and I wouldnt trade this experience for anything.'
+          testimonial = 'LifeMate transformed the way I look at fitness. The variety of classes and top-notch equipment make every workout enjoyable. I have seen amazing results and feel stronger and more confident than ever before.'
           />
           <Testimonial 
           image = {TestimonialImageThree}
-          name = 'Shane Jones'
-          testimonial = 'LifeMate has been a great resource for me in my journey to lose weight and achieve my fitness goals. I have made some amazing friends along the way and I wouldnt trade this experience for anything.'
+          name = 'Lyla Majnoon'
+          testimonial = 'Joining LifeMate has been the best decision I have made for my health and well-being. The environment is so motivating. I have not only improved my fitness but also gained a sense of community that keeps me coming back.'
           />
           <Testimonial 
           image = {TestimonialImageFour}
           name = 'Sara Lilian'
-          testimonial = 'LifeMate has been a great resource for me in my journey to lose weight and achieve my fitness goals. I have made some amazing friends along the way and I wouldnt trade this experience for anything.'
+          testimonial = 'What sets LifeMate apart is the incredible sense of belonging. I have achieved goals I never thought possible and found encouragement every step of the way.'
           />
         </div>
+      </div>
+      
+      {/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/}
+      <div>
+        <Footer />
       </div>
     </div>
   )
