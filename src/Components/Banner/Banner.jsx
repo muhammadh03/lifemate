@@ -1,4 +1,4 @@
-import banner from '../../assets/banner.webp'
+import banner from '../../assets/banner.jpeg';
 
 const Home = () => {
   return (
