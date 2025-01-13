@@ -28,7 +28,7 @@ import GalleryImageFour from '../../assets/classes/rope-cadio-1.webp';
 import GalleryImageFive from '../../assets/classes/weight-loss-2.jpg';
 
 //~~~~~~~~~~~~~~~ BMI CALCULATOR IMAGE ~~~~~~~~~~~~~~~//
-import BmiImage from '../../assets/classes/workout-with-kattlebell.jpg'
+import BmiImage from '../../assets/classes/workout-with-kattlebell.jpeg'
 
 //~~~~~~~~~~~~~~~ TESTIMONIAL ~~~~~~~~~~~~~~~//
 import TestimonialImageOne from '../../assets/testimonial/crop-1.jpg';
