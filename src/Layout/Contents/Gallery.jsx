@@ -6,7 +6,7 @@ import GalleryImageThree from '../../assets/gallery/gallery-3.jpg';
 import GalleryImageFour from '../../assets/gallery/gallery-4.webp';
 import GalleryImageFive from '../../assets/gallery/gallery-5.jpg';
 import GalleryImageSix from '../../assets/gallery/gallery-6.jpg';
-import GalleryImageSeven from '../../assets/gallery/gallery-7.jpg';
+import GalleryImageSeven from '../../assets/gallery/gallery-7.jpeg';
 import GalleryImageEight from '../../assets/gallery/gallery-8.jpeg';
 import GalleryImageNine from '../../assets/gallery/gallery-9.jpeg';
 import GalleryImageTen from '../../assets/gallery/gallery-10.jpeg';
