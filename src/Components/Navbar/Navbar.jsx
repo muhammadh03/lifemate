@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import logo from '../../assets/logo-3.png';
 
 const Navbar = () => {
@@ -10,12 +11,24 @@ const Navbar = () => {
 
             <div className='hidden lg:block'>
                 <ul className='flex items-center gap-6'>
-                    <li><a href="/" className='nav-link'>Home</a></li>
-                    <li><a href="/classes" className='nav-link'>Gallery</a></li>
-                    <li><a href="/faq" className='nav-link'>Pricing</a></li>
-                    <li><a href="/services" className='nav-link'>Classes</a></li>
-                    <li><a href="/about" className='nav-link'>About</a></li>
-                    <li><a href="/contact" className='nav-link'>Contact</a></li>
+                    <li>
+                        <Link to="/" className='nav-link'>Home</Link>
+                    </li>
+                    <li>
+                        <Link to="/gallery" className='nav-link'>Gallery</Link>
+                    </li>
+                    <li>
+                        <Link to="/pricing" className='nav-link'>Pricing</Link>
+                    </li>
+                    <li>
+                        <Link to="/classes" className='nav-link'>Classes</Link>
+                    </li>
+                    <li>
+                        <Link to="/schedule" className='nav-link'>Schedule</Link>
+                    </li>
+                    <li>
+                        <Link to="/contact" className='nav-link'>Contact</Link>
+                    </li>
                 </ul>
             </div>
 

@@ -13,7 +13,7 @@ import GalleryImageTen from '../../assets/gallery/gallery-10.jpeg';
 import GalleryImageEleven from '../../assets/gallery/gallery-11.jpeg';
 import GalleryImageTwelve from '../../assets/gallery/gallery-12.jpeg';
 
-const Gallery = () => {
+const MainGallery = () => {
     return (
         <div>
             <div className='flex flex-col'>
@@ -76,4 +76,4 @@ const Gallery = () => {
     )
 };
 
-export default Gallery;
+export default MainGallery;

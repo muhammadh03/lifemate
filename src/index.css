@@ -31,5 +31,5 @@ body {
 
 .price-title {
   @apply after:absolute after:content-['']  after:bg-black after:w-8 after:h-10 after:bottom-0 after:-right-6 after:skew-x-[20deg]
-  group-hover:bg-slate-900 group-hover:after:bg-[#ff0000];
+  group-hover:bg-slate-900 group-hover:text-white group-hover:after:bg-[#ff0000];
 }
