@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Logo from '../assets/logo-3.png';
 
 const Footer = () => {
@@ -29,22 +30,22 @@ const Footer = () => {
                     <div className='w-20 border-b-4 border- border-red-500 '></div>
                     <ul className='mt-4'>
                         <li className='mb-3 hover:text-red-500'>
-                            Fitness Classes
+                            <Link to="/classes">Fitness Classes</Link>
                         </li>
                         <li className='mb-3 hover:text-red-500'>
-                            Yoga Classes
+                            <Link to="/classes">Yoga Classes</Link>
                         </li>
                         <li className='mb-3 hover:text-red-500'>
-                            Boxing Classes
+                            <Link to="/classes">Boxing Classes</Link>
                         </li>
                         <li className='mb-3 hover:text-red-500'>
-                            Muaythai Classes
+                            <Link to="/classes">Muaythai Classes</Link>
                         </li>
                         <li className='mb-3 hover:text-red-500'>
-                            Bodybuilding Classes
+                            <Link to="/classes">Bodybuilding Classes</Link>
                         </li>
                         <li className='mb-3 hover:text-red-500'>
-                            Weight Lifting Classes
+                            <Link to="/classes">Weight Lifting Classes</Link>
                         </li>
                     </ul>
                 </div>

@@ -19,61 +19,62 @@ const Schedule = () => {
                             CHOOSE YOUR COMFORTABLE
                         </p>
                     </div>
-                    <table className='table-auto border-collapse border border-gray-700 w-full text-left italic my-8'>
-                        <thead className='bg-slate-800 text-white'>
-                            <tr>
-                                <th className='py-6 px-4'>Time</th>
-                                <th className='py-6 px-4'>Monday</th>
-                                <th className='py-6 px-4'>Tuesday</th>
-                                <th className='py-6 px-4'>Wednesday</th>
-                                <th className='py-6 px-4'>Thursday</th>
-                                <th className='py-6 px-4'>Friday</th>
-                                <th className='py-6 px-4'>Saturday</th>
-                                <th className='py-6 px-4'>Sunday</th>
-                            </tr>
-                        </thead>
-                        <tbody className='bg-slate-800 text-red-600'>
-                            <tr>
-                                <td className='py-6 px-4 border border-gray-700'>9 AM <br />to<br /> 12 PM</td>
-                                <td className='py-6 px-4 border border-gray-700'>WEIGHT LIFTING</td>
-                                <td className='py-6 px-4 border border-gray-700'></td>
-                                <td className='py-6 px-4 border border-gray-700'></td>
-                                <td className='py-6 px-4 border border-gray-700'>WEIGHT LIFTING</td>
-                                <td className='py-6 px-4 border border-gray-700'></td>
-                                <td className='py-6 px-4 border border-gray-700'></td>
-                                <td className='py-6 px-4 border border-gray-700'>CLOSED</td>
-                            </tr>
-                            <tr>
-                                <td className='p-6 px-4 border border-gray-700'>5 PM <br />to<br /> 6 PM</td>
-                                <td className='p-6 px-4 border border-gray-700'></td>
-                                <td className='p-6 px-4 border border-gray-700'>YOGA</td>
-                                <td className='p-6 px-4 border border-gray-700'></td>
-                                <td className='p-6 px-4 border border-gray-700'>YOGA</td>
-                                <td className='p-6 px-4 border border-gray-700'></td>
-                                <td className='p-6 px-4 border border-gray-700'>YOGA</td>
-                                <td className='p-6 px-4 border border-gray-700'>CLOSED</td>
-                            </tr>
-                            <tr>
-                                <td className='p-6 px-4 border border-gray-700'>7 PM <br />to<br /> 9 PM</td>
-                                <td className='p-6 px-4 border border-gray-700'></td>
-                                <td className='p-6 px-4 border border-gray-700'>BOXING</td>
-                                <td className='p-6 px-4 border border-gray-700'></td>
-                                <td className='p-6 px-4 border border-gray-700'></td>
-                                <td className='p-6 px-4 border border-gray-700'>BOXING</td>
-                                <td className='p-6 px-4 border border-gray-700'></td>
-                                <td className='p-6 px-4 border border-gray-700'>CLOSED</td>
-                            </tr>
-                            <tr>
-                                <td className='py-6 px-4 border border-gray-700'>3 AM <br />to<br /> 6 PM</td>
-                                <td className='py-6 px-4 border border-gray-700'></td>
-                                <td className='py-6 px-4 border border-gray-700'></td>
-                                <td className='py-6 px-4 border border-gray-700'>MUAY THAI</td>
-                                <td className='py-6 px-4 border border-gray-700'></td>
-                                <td className='py-6 px-4 border border-gray-700'></td>
-                                <td className='py-6 px-4 border border-gray-700'>MUAY THAI</td>
-                                <td className='py-6 px-4 border border-gray-700'>CLOSED</td>
-                            </tr>
-                            {/* <tr>
+                    <div className='overflow-x-auto'>
+                        <table className='transform rotate-90 md:rotate-0 table-auto border-collapse border border-gray-700 w-full text-left italic my-8'>
+                            <thead className='bg-slate-800 text-white text-xs md:text-sm lg:text-base'>
+                                <tr>
+                                    <th className='md:py-4 md:px-2 lg:py-6 lg:px-4'>Time</th>
+                                    <th className='md:py-4 md:px-2 lg:py-6 lg:px-4'>Monday</th>
+                                    <th className='md:py-4 md:px-2 lg:py-6 lg:px-4'>Tuesday</th>
+                                    <th className='md:py-4 md:px-2 lg:py-6 lg:px-4'>Wednesday</th>
+                                    <th className='md:py-4 md:px-2 lg:py-6 lg:px-4'>Thursday</th>
+                                    <th className='md:py-4 md:px-2 lg:py-6 lg:px-4'>Friday</th>
+                                    <th className='md:py-4 md:px-2 lg:py-6 lg:px-4'>Saturday</th>
+                                    <th className='md:py-4 md:px-2 lg:py-6 lg:px-4'>Sunday</th>
+                                </tr>
+                            </thead>
+                            <tbody className='bg-slate-800 text-red-600 md:text-sm lg:text-base'>
+                                <tr>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'>9 AM <br />to<br /> 12 PM</td>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'>WEIGHT LIFTING</td>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'></td>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'></td>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'>WEIGHT LIFTING</td>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'></td>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'></td>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'>CLOSED</td>
+                                </tr>
+                                <tr>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'>5 PM <br />to<br /> 6 PM</td>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'></td>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'>YOGA</td>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'></td>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'>YOGA</td>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'></td>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'>YOGA</td>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'>CLOSED</td>
+                                </tr>
+                                <tr>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'>7 PM <br />to<br /> 9 PM</td>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'></td>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'>BOXING</td>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'></td>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'></td>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'>BOXING</td>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'></td>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'>CLOSED</td>
+                                </tr>
+                                <tr>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'>3 AM <br />to<br /> 6 PM</td>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'></td>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'></td>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'>MUAY THAI</td>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'></td>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'></td>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'>MUAY THAI</td>
+                                    <td className='md:py-4 md:px-2 lg:py-6 lg:px-4 border border-gray-700'>CLOSED</td>
+                                </tr>
+                                {/* <tr>
                                 <td className='p-6 px-4 border border-gray-700'>9 AM <br />to<br /> 9 PM</td>
                                 <td className='p-6 px-4 border border-gray-700'>BODY BUILDING</td>
                                 <td className='p-6 px-4 border border-gray-700'>BODY BUILDING</td>
@@ -93,8 +94,9 @@ const Schedule = () => {
                                 <td className='p-6 px-4 border border-gray-700'>BODY BUILDING</td>
                                 <td className='p-6 px-4 border border-gray-700'>CLOSED</td>
                             </tr> */}
-                        </tbody>
-                    </table>
+                            </tbody>
+                        </table>
+                    </div>
                     <div className='pb-8 italic'>
                         <p>
                             Note :-
