@@ -73,7 +73,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className='grid grid-cols-1 gap-10 md:grid-cols-2 mt-4'>
+            {/* <div className='grid grid-cols-1 gap-10 md:grid-cols-2 mt-4'>
                 <div className='mt-6'>
                     <h1 className='text-2xl font-bold tracking-wider'>
                         Contact Us
@@ -90,27 +90,8 @@ const Footer = () => {
                     </p>
                 </div>
 
-                <div className='mt-6'>
-                    <h1 className='text-2xl font-bold tracking-wider'>
-                        Social Media
-                    </h1>
-                    <div className='w-20 border-b-4 border- border-red-500'></div>
-                    <div className=''>
-                        <a href='#'>
-                            <i className="fab fa-facebook-square text-3xl mt-4 mr-4 hover:text-red-600"></i>
-                        </a>
-                        <a href='#'>
-                            <i className="fab fa-instagram text-3xl mt-4 mr-4 hover:text-red-600"></i>
-                        </a>
-                        <a href='#'>
-                            <i className="fab fa-twitter text-3xl mt-4 mr-4 hover:text-red-600"></i>
-                        </a>
-                        <a href='#'>
-                            <i className="fab fa-youtube text-3xl mt-4 mr-4 hover:text-red-600"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
+                
+            </div> */}
         </div>
     )
 };

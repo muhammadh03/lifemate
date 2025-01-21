@@ -6,6 +6,7 @@ import MainGallery from "./Layout/Contents/MainGallery";
 import MainPricing from "./Layout/Contents/MainPricing";
 import MainClasses from "./Layout/Contents/MainClasses";
 import Schedule from "./Layout/Contents/Schedule";
+import Contact from "./Layout/Contents/Contact";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/pricing" element={<MainPricing />} />
           <Route path="/classes" element={<MainClasses />} />
           <Route path="/schedule" element={<Schedule />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </BrowserRouter>
